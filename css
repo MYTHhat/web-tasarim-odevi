@@ -1,12 +1,21 @@
-
 body {
   font-family: Arial, sans-serif;
-  color: #333333;
-  background-color: #ffffff;
+  color: #030202;
+  background-image: url(fotolar/wallpaper_sage.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
 }
 
-h1, h2 {
+h1,h2 {
   color: #000000;
+  text-shadow: 0 2px 2px #000000;
+}
+
+.anasayfa-arkaplan{
+
+  background-color:rgb(255, 71, 83)
 }
 
 .navbar {
@@ -14,15 +23,29 @@ h1, h2 {
 }
 
 .navbar-brand {
+  font-size: 22px;
   font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-item {
-  font-size: 14px;
+  font-size: 18px;
 }
+.container {
+  margin-top: 60px;
 
+}
+.card-group{
+  margin-top: 10px;
+}
 .card {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+.tron-fluid.mt-3{
+
+  background-color: aqua;
 }
 
 .card-img-top {
@@ -38,16 +61,26 @@ h1, h2 {
 .card-text {
   font-size: 14px;
 }
+.cards{
+  margin-top: 10px;
+}
+.mini{
+  background-color: rgb(253, 255, 255);
+}
+.bg-dark{
+
+  color: rgb(253, 255, 255);
+}
 
 footer {
-  color: #777777;
+  color: #faf3f3;
 }
 
 footer p {
   font-size: 12px;
 }
 footer {
-  color: #777777;
+  color: rgb(145, 25, 35);
 }
 
 footer p {
