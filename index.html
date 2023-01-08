@@ -1,108 +1,244 @@
 <!doctype html>
 <html lang="en">
+
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
 
     <title>Valorant Web Sayfası</title>
   </head>
   <body>
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Valorant</a>
+      <a class="navbar-brand" href="#">VALORANT</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Anasayfa <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#anasayfa">Anasayfa <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Silahlar</a>
+            <a class="nav-link" href="#silahlar">Silahlar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Ajanlar</a>
+            <a class="nav-link" href="#ajanlar">Ajanlar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Haritalar</a>
+            <a class="nav-link" href="#haritalar">Haritalar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Hakkında</a>
+            <a class="nav-link" href="#hakkinda">Hakkında</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Fotoğraf Albümü</a>
+            <a class="nav-link" href="#carouselExampleFade">Fotoğraf Albümü</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">İletişim</a>
+            <a class="nav-link" href="#iletisim">İletişim</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <!-- Anasayfa Sayfası -->
-<div class="jumbotron jumbotron-fluid mt-3">
+<div id="anasayfa"   class="anasayfa-arkaplan">
   <div class="container">
-    <h1 class="display-4">Valorant</h1>
-    <p class="lead">Valorant, taktik öğelerle dolu bir online oyundur.</p>
+    <h1 style="color:white;" class="display-4">VALORANT</h1>
+    <h2 style="color: white;" class="lead"  >Valorant, Riot Games'in 5'e 5, karakter tabanlı, rekabetçi FPS oyunu.  </h2>
   </div>
 </div>
 
 <!-- Silahlar Sayfası -->
-<div class="container mt-5">
-  <h1>Silahlar</h1>
-  <hr>
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Anasayfa</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Silahlar</li>
-    </ol>
-  </nav>
-  <div class="row mt-3">
-    <div class="col-md-3">
-      <div class="card">
-        <img src="Vandal.jpg" class="card-img-top" alt="gun1">
-        <div class="card-body">
-          <h5 class="card-title">Silah 1</h5>
-          <p class="card-text">Silah 1 hakkında bilgi.</p>
-        </div>
-      </div>
+
+<div  id="silahlar"  class="container">
+<div class="card-group">
+  <div class="card">
+    <a href="fotolar/vandal.png">
+      <img  
+        src="fotolar/vandal.png"
+        class="card-img-top"
+        alt=""
+      />
+    </a>
+    <div class="card-body">
+      <h3 class="card-title">Vandal</h3>
+      <p>
+        Vandal, yüksek maliyetli bir otomatik tüfektir. VALORANT'ın en iyi genel amaçlı silahlarından biri olan bu silah, 
+        herhangi bir düşmanı tüm mesafelerde tek bir kafadan vuruşla öldürmesine izin verdiği için, daha uzun mesafelerde bireysel hedefleri vurmada en etkilidir.
+
+<br>
+<br>
+VALORANT'ın diğer genel amaçlı tüfeği Phantom ile karşılaştırıldığında, Vandal'ın bir düşmanı kafasına tek kurşunla anında öldürmesi garanti edilirken, Phantom'un hasar düşüşü, kafadan vurmak için orta ila uzun menzilde birden fazla mermi gerektirmesiyle sonuçlanır. Bununla birlikte, 
+Phantom'un daha yüksek atış hızı ve isabetliliği, onu Vandal üzerinden kısa ve orta mesafelerde birden fazla düşmanı alt etmede daha iyi hale getirir.
+      </p>
     </div>
-    <div class="col-md-3">
-      <div class="card">
-        <img src="Operator.jpg" class="card-img-top" alt="gun2">
-        <div class="card-body">
-          <h5 class="card-title">Silah 2</h5>
-          <p class="card-text">Silah 2 hakkında bilgi.</p>
-        </div>
-      </div>
+  </div>
+ 
+
+  <div class="card">
+    <a href="fotolar/odin.png">
+      <img  
+        src="fotolar/odin.png"
+        class="card-img-top"
+        alt=""
+      />
+    </a>
+    <div class="card-body">
+      <h3 class="card-title">Odin</h3>
+      <p>
+        Odin, yüksek maliyetli bir makineli tüfektir. Birincil Ateş kullanılırken, Odin'in atış hızı, silahın ateşlendiği süre boyunca maksimum miktarda artacaktır, ancak Alternatif Ateş kullanıldığında, kullanıcının söz konusu maksimum atış hızında hemen ateş etmesine izin verilir<br>
+    <br>
+    Bir makineli tüfek olarak Odin, yüksek delişi, atış hızı ve şarjör kapasitesi nedeniyle, ya bir yeri tutmak için bir savunma aracı olarak ya da wallbang öldürmek için kullanıldığında en etkilidir. Bununla birlikte, daha düşük hareket kabiliyetleri ve daha yüksek kuşanma hızları, onları gözetleme veya sitelere girme için daha az uygun hale getirir; bu, Phantom veya Vandal gibi tüfekler tarafından böyle bir fiyata daha iyi hizmet eder.<br>
+    <br>    
+    
+      </p>
     </div>
-    <div class="col-md-3">
-      <div class="card">
-        <img src="Sheriff.jpg" class="card-img-top" alt="gun3">
-        <div class="card-body">
-          <h5 class="card-title">Silah 3</h5>
-          <p class="card-text">Silah 3 hakkında bilgi.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card">
-        <img src="Phantom.jpg" class="card-img-top" alt="gun4">
-        <div class="card-body">
-          <h5 class="card-title">Silah 4</h5>
-          <p class="card-text">Silah 4 hakkında bilgi.</p>
-        </div>
-      </div>
+  </div>
+
+  <div class="card">
+    <a href="fotolar/phantom.png">
+      <img  
+        src="fotolar/phantom.png"
+        class="card-img-top"
+        alt=""
+      />
+    </a>
+    <div class="card-body">
+      <h3 class="card-title">Phantom</h3>
+      <p>
+        Phantom, yüksek maliyetli bir otomatik tüfektir. VALORANT'ın en iyi genel amaçlı silahlarından biri olan bu silah, yüksek atış hızı sayesinde aynı anda birden fazla düşmanı püskürtebildiği kısa ve orta menzilde en etkilidir. Ayrıca, oyuncunun cephane sayımı veya konumu için çok fazla risk oluşturmadan görüş engelleyiciler aracılığıyla spam yapmak için kullanılmasına izin veren bir susturucu ile donatılmıştır.
+<br>
+<br>
+Phantom, bir düşmanı tek bir kafa vuruşuyla anında öldürebilir, ancak hasar düşüşü, bunun artık orta ve uzun menzillerde geçerli olmadığı anlamına gelir. İlk kafa vuruşunu yapan ancak kendileri ölmeden önce ikinci bir öldürücü vuruş yapamayan oyuncular, bu gibi durumlarda Vandal'ı tercih edebilirler.
+      </p>
     </div>
   </div>
 </div>
+<div class="card-group">
+  <div class="card">
+    <a href="fotolar/Bulldog.webp">
+      <img  style="width: 100%; height: 100%;"
+        src="fotolar/Bulldog.webp"
+        class="card-img-top"
+        alt=""
+      />
+    </a>
+    <div class="card-body">
+      <h3 class="card-title">Bulldog</h3>
+      <p class="card-text">
+        Bulldog orta fiyatlı bir tüfek. İki ateşleme modu vardır, 
+        standart bir otomatik tek mermi birincil ateşi ve normal atış hızının yaklaşık beşte biri oranında doğru bir patlamada üç mermi ateşleyen yarı otomatik patlama modu alternatif ateşi.<br>
+<br>
+Bulldog, tasarruf etmediğinizde iyi bir seçenek olabilir, ancak ekibinizin geri kalanı raunt için daha güçlü alımlara sahipken, 
+siz daha pahalı bir tüfek alacak krediye sahip değilsiniz. Bununla birlikte, diğer tüm tüfekler, satın alınabildiklerinde Bulldog'a göre yükseltmelerdir; 
+Bulldog'un ani ateşiyle kafaları vurmak isteyen oyuncular bunun yerine Guardian'ı daha yüksek doğruluk, hasar ve delişle kullanabilirken, 
+genel kısa-orta menzilli savaş, daha yüksek atış hızları ile Phantom ve Vandal için daha uygundur.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <a href="fotolar/sheriff.png">
+      <img 
+        src="fotolar/sheriff.png"
+        class="card-img-top"
+        alt=""
+      />
+    </a>
+    <div class="card-body">
+      <h3 class="card-title">Sheriff</h3>
+      <p>
+        Sheriff, yarı otomatik bir tabanca ve oyundaki en pahalı tabancadır. Çoğu menzilde ve toplam sağlıkta düşmanları kafasına tek bir kurşunla öldürebilen, 
+        tam satın almış düşmanlara bile meydan okumak için kullanılabilir. Yüksek penetrasyon ve ekstra rezerve sahip şarjörü, 
+        aynı zamanda onu tabanca veya çevreci mermiler sırasında duvar patlamaları için spam yapmak için kullanışlı hale getirir. 
+        Bununla birlikte, düşük kapasiteli bir şarjör ve düşük atış hızıyla, kaçırılan bir atış bile cezalandırıcı olabilir. Şerif'in yüksek geri tepmesi ve yayılması, 
+        birden fazla düşmanla savaşırken onu kullanmak için olağanüstü kontrol ve hassasiyet sağlar.
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <a href="fotolar/guardian.webp">
+      <img  style="width: 100%; height: 100%;"
+        src="fotolar/guardian.webp"
+        class="card-img-top"
+        alt=""
+      />
+    </a>
+    <div class="card-body">
+      <h3 class="card-title">Guardian</h3>
+      <p>
+        Guardian orta fiyatlı bir tüfek. İki ateşleme modu vardır, standart bir otomatik tek mermi birincil ateşi ve normal atış hızının yaklaşık beşte biri oranında doğru bir patlamada üç mermi ateşleyen yarı otomatik patlama modu alternatif ateşi.<br>
+<br>
+Tasarruf yapmadığınız zamanlarda Guardian iyi bir seçenek olabilir, ancak ekibinizin geri kalanı raunt için daha güçlü alımlara sahipken siz daha pahalı bir tüfek alacak krediye sahip değilsiniz. Yine de,
+diğer tüm tüfekler, satın alınabildiklerinde Bulldog'a göre yükseltmelerdir; Bulldog'un ani ateşiyle kafaları vurmak isteyen oyuncular bunun yerine Guardian'ı daha yüksek doğruluk, hasar ve delişle kullanabilirken, genel kısa-orta menzilli savaş, daha yüksek atış hızları ile Phantom ve Vandal için daha uygundur.
+      </p>
+    </div>
+  </div>
+
+</div>
+<div class="card-group">
+  <div class="card">
+    <a href="fotolar/marshal.png">
+    <img  style="width: 100%; height: 100%;"
+        src="fotolar/marshal.png"
+        class="card-img-top"
+        alt=""
+      />
+    </a>
+    <div class="card-body">
+      <h3 class="card-title">Marshall</h3>
+      <p>
+        Marshall, düşük maliyetli bir keskin nişancı tüfeğidir. Bir keskin nişancı olarak, Alternatif Ateşleme modunda hareketsiz dururken mükemmel isabet oranına sahip tek bir yakınlaştırma ayarına sahip bir dürbünü vardır. 
+        Keskin nişancı tüfekleri Birincil Ateş modunda kullanıldığında genellikle son derece hatalı olsa da, Marshall bu durumda şaşırtıcı derecede isabetlidir, yani kullanıcı atışlarını yapabildiği sürece birden fazla düşmanı aynı anda alt etmek için kullanılabilir.<br>
+<br>
+Bir manivelalı keskin nişancı tüfeği olan Marshal, her seferinde bir mermi yeniden doldurulur. Marshal'ın yeniden doldurma süresi de atış hızından daha kısa olduğu için, bu, 
+kullanıcının atışlar arasında bir mermiyi yeniden yükleyebileceği ve şarjörün kapasitesini mevcut rezervin tamamına etkili bir şekilde artırabileceği anlamına gelir.<br>
+       <br> 
+       Daha pahalı olan Operatörle karşılaştırıldığında, Marshall'ınki daha yüksek atış hızı nedeniyle birden fazla düşmanla savaşmakta daha iyidir, ancak bunun yerine kafadan vurmaları gerekeceğinden bu, kullanıcının olağanüstü nişan almasını gerektirir. 
+       Operatör bu arada çok daha fazla hasar vererek düşmanları hem vücut vuruşuyla hem de kafadan vuruşlarla anında öldürmesine olanak tanırken, Marshall bunu yalnızca korumasız düşmanlara karşı yapabilir.
+  </div>
+ 
+
+  <div class="card">
+    <a href="fotolar/operator.png">
+    
+      <img  
+        src="fotolar/operator.png"
+        class="card-img-top"
+        alt=""
+      />
+    </a>
+    <div class="card-body">
+      <h3 class="card-title">Operatör</h3>
+      <p>
+        The Operator is a high-cost sniper rifle and the most expensive gun in the game. As a sniper,
+          it has a scope with two zoom settings on its Alternate Fire mode that has perfect accuracy when standing still. 
+          The Operator's Primary Fire accuracy on the other hand is extremely inaccurate.<br>
+<br>
+        The Operator's power comes from its high-damage bullets, being able to instantly kill any enemy with a single shot to the body, 
+        though with its low rate of fire every missed shot comes with a cost. Compared to the Marshal, which can only instantly kill shielded enemies with headshots, 
+        the Operator is also better at picking off enemies with wallbang shots due to its higher penetration.
+      </p>
+    </div>
+  </div>
+</div>
+</div>
 <!-- Ajanlar Sayfası -->
-<div class="container mt-5">
-  <h1>Ajanlar</h1>
+
+<div  id="ajanlar"  class="container mt-5">
+  <h1 style="color: rgb(15, 25, 35);" >AJANLAR</h1>
   <hr>
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
@@ -113,45 +249,50 @@
   <div class="row mt-3">
     <div class="col-md-3">
       <div class="card">
-        <img src="agent1.jpg" class="card-img-top" alt="agent1">
+        <a href="fotolar/jett.png">
+        <img  style="width: 100%; height: 100%;" src="fotolar/jett.png" class="card-img-top" alt="jett"></a>
         <div class="card-body">
-          <h5 class="card-title">Ajan 1</h5>
-          <p class="card-text">Ajan 1 hakkında bilgi.</p>
+          <h5 class="card-title">JETT</h5>
+         
         </div>
       </div>
     </div>
     <div class="col-md-3">
       <div class="card">
-        <img src="agent2.jpg" class="card-img-top" alt="agent2">
+        <a href="fotolar/viper.png">
+        <img  style="width: 100%; height: 100%;" src="fotolar/viper.png" class="card-img-top" alt="viper"></a>
         <div class="card-body">
-          <h5 class="card-title">Ajan 2</h5>
-          <p class="card-text">Ajan 2 hakkında bilgi.</p>
+          <h5 class="card-title">VIPER</h5>
+         
         </div>
       </div>
     </div>
     <div class="col-md-3">
       <div class="card">
-        <img src="agent3.jpg" class="card-img-top" alt="agent3">
+        <a href="fotolar/brimstone.png">
+        <img   style="width: 100%; height: 100%;"  src="fotolar/brimstone.png" class="card-img-top" alt="brimstone"></a>
         <div class="card-body">
-          <h5 class="card-title">Ajan 3</h5>
-          <p class="card-text">Ajan 3 hakkında bilgi.</p>
+          <h5 class="card-title">BRIMSTONE</h5>
+          
         </div>
       </div>
     </div>
     <div class="col-md-3">
       <div class="card">
-        <img src="agent4.jpg" class="card-img-top" alt="agent4">
+        <a href="fotolar/reyna.png">
+        <img   style="width: 100%; height: 100%;" src="fotolar/reyna.png" class="card-img-top" alt="reyna"></a>
         <div class="card-body">
-          <h5 class="card-title">Ajan 4</h5>
-          <p class="card-text">Ajan 4 hakkında bilgi.</p>
+          <h5 class="card-title">REYNA</h5>
+          
         </div>
       </div>
     </div>
   </div>
 </div>
+
 <!-- Haritalar Sayfası -->
-<div class="container mt-5">
-  <h1>Haritalar</h1>
+<div id="haritalar"   class="container ">
+  <h1 style="color: rgb(15, 25, 35);">HARİTALAR</h1>
   <hr>
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
@@ -159,48 +300,96 @@
       <li class="breadcrumb-item active" aria-current="page">Haritalar</li>
     </ol>
   </nav>
-  <div class="row mt-3">
+  
+  
+    <div class="card-group">
     <div class="col-md-3">
       <div class="card">
-        <img src="map1.jpg" class="card-img-top" alt="map1">
+        <a href="fotolar/Ascent.webp">
+        <img src="fotolar/Ascent.webp" class="card-img-top" alt="Ascent"></a>
         <div class="card-body">
-          <h5 class="card-title">Harita 1</h5>
-          <p class="card-text">Harita 1 hakkında bilgi.</p>
+          <h5 class="card-title">ASCENT</h5>
+          <h6>Küçük konum ve yorucu savaşlar için açık bir oyun alanı, Ascent'teki iki alanı ayırır. 
+            Her site, geri dönüşü olmayan bomba kapılarıyla güçlendirilebilir; Düştüklerinde, onları yok etmeniz veya başka bir yol bulmanız gerekecek. Mümkün olduğu kadar az bölge verin.</h6>
         </div>
       </div>
     </div>
     <div class="col-md-3">
       <div class="card">
-        <img src="map2.jpg" class="card-img-top" alt="map2">
+        <a href="fotolar/Bind.webp">
+        <img src="fotolar/Bind.webp" class="card-img-top" alt="Bind"></a>
         <div class="card-body">
-          <h5 class="card-title">Harita 2</h5>
-          <p class="card-text">Harita 2 hakkında bilgi.</p>
+          <h5 class="card-title">BIND</h5>
+         <h6>İki bölge var. Ortası yok. Ya sağı seçeceksin ya da solu. Eee, hepsi bu kadar mı? 
+          Tabii ki değil! İki tarafta da saldıranların kullanabileceği yollar ve rakipleri arkadan vurmaya yardımcı olacak tek yönlü ışınlayıcılar bulunuyor.</h6>
         </div>
       </div>
     </div>
     <div class="col-md-3">
       <div class="card">
-        <img src="map3.jpg" class="card-img-top" alt="map3">
+        <a href="fotolar/Breeze.webp">
+        <img src="fotolar/Breeze.webp" class="card-img-top" alt="Breeze"></a>
         <div class="card-body">
-          <h5 class="card-title">Harita 3</h5>
-          <p class="card-text">Harita 3 hakkında bilgi.</p>
+          <h5 class="card-title">BREEZE</h5>
+          <h6>Bu tropik cennetteki tarihi yıkıntıları ve deniz kenarındaki mağaraları keşfe çıkın. 
+            Ama arkanızı kollayacak ajanlara ihtiyacınız var. Açık alanlarda ve uzun menzilli çatışmalarda buna ihtiyacınız olacak. 
+            Dikkati elden bırakmadığınız sürece Breeze'de su akar, yolunu bulur.</h6>
         </div>
       </div>
     </div>
+  
     <div class="col-md-3">
       <div class="card">
-        <img src="map4.jpg" class="card-img-top" alt="map4">
+        <a href="fotolar/Fracture.webp">
+        <img src="fotolar/Fracture.webp" class="card-img-top" alt="Fracture"></a>
         <div class="card-body">
-          <h5 class="card-title">Harita 4</h5>
-          <p class="card-text">Harita 4 hakkında bilgi.</p>
+          <h5 class="card-title">FRACTURE</h5>
+          <h6>Çok gizli bir araştırma tesisi, başarısızlıkla sonuçlanan bir radyanit deneyinden sonra ikiye ayrıldı. 
+            Haritadaki farklı habitatlar sayesinde iki farklı seçime sahip olan savunanlar, saldıranları kendi bölgelerinde karşılayabilir ya da saldırıyla başa çıkabilmek için hazırlık yapabilir.</h6>
         </div>
       </div>
     </div>
   </div>
+    <div class="card-group">
+      <div class="col-md-3">
+        <div class="card">
+          <a href="fotolar/Haven.webp">
+          <img src="fotolar/Haven.webp" class="card-img-top" alt="Haven"></a>
+          <div class="card-body">
+            <h5 class="card-title">HAVEN</h5>
+           <h6>Terk edilmiş bir manastırın avlusunda kapışan ajanlar üç bölgeyi de kontrol altına alabilmek için birbirini yiyor. Kontrol altına alınacak çok bölge var, 
+            fakat savunucuların ele geçireceği fazladan bina daha saldırgan şekilde püskürtme yapabilmeleri için faydalı olabilir.</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <a href="fotolar/Ascent.webp">
+          <img src="fotolar/Icebox.webp" class="card-img-top" alt="Icebox"></a>
+          <div class="card-body">
+            <h5 class="card-title">ICEBOX</h5>
+          <h6>Sıradaki savaş meydanı kutup soğuğunun hüküm sürdüğü gizli bir Kingdom kazı alanı. İki Spike yerleştirme bölgesi de kar yığınları ve metal parçalarıyla korunduğu için keskin nişancılık hünerlerinin önemini vurguluyor. 
+            Çelik halatları kendi lehinize kullanarak bir anda düşmanların üstüne çökebilirsiniz.</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <a href="fotolar/Pearl.webp">
+          <img src="fotolar/Pearl.webp" class="card-img-top" alt="Pearl"></a>
+          <div class="card-body">
+            <h5 class="card-title">PEARL</h5>
+          <h6>Gözalıcı sualtı şehrinde yer alan iki bölgeli haritada saldıranlar savunanları püskürtmeye çalışıyor. Pearl, herhangi ilave bir mekaniğe sahip değil fakat doğal güzelliğiyle ön planda. 
+            Omega Dünya'da yer alan ilk haritada, küçük orta bölge veya iki yandaki uzun menzilli koridorlar aksiyon dolu çatışmalara sahne oluyor.</h6>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
 </div>
 <!-- Hakkında Sayfası -->
-<div class="container mt-5">
-  <h1>Hakkında</h1>
+<div id="hakkinda"   class="container mt-5">
+  <h1 style="color: rgb(15, 25, 35);">HAKKINDA</h1>
   <hr>
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
@@ -210,87 +399,54 @@
   </nav>
   <div class="row mt-3">
     <div class="col-md-8">
-      <p>Valorant hakkında bilgi.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum, purus a imperdiet condimentum, est lacus viverra leo, vel lobortis velit nisi id justo. Vivamus viverra bibendum sem, in cursus mauris congue non. Suspendisse potenti. Aliquam erat volutpat. Integer sit amet lectus diam. Quisque ultricies, quam in pellentesque pretium, velit felis sodales nisl, auctor porta lacus tortor in nunc. Duis pulvinar, enim at congue ultricies, lorem metus porttitor ipsum, a varius nisl lectus a est. Vestibulum dapibus, nisi eu sollicitudin dapibus, orci nibh blandit tellus, nec suscipit elit lacus a nisl. Proin consequat arcu ac leo porttitor, non consectetur libero vestibulum. Proin eu leo sit amet nisi placerat efficitur. Sed tempus ligula mollis lectus ultricies, eget sodales urna ornare.</p>
+      <div class="mini">
+        <p>Riot Games tarafından geliştirilen ve Counter Strike: Global Offensive (CS:GO) ile 
+          Overwatch’a benzerliğiyle dikkat çeken Valorant’ı tamamen erişime açmasının ardından tüm dünya üzerinde online şekilde oynanmaya başlandı.</p>
+      <p>Her şeyden önce Valorant’ın nasıl bir oyun olduğunu anlatmak istiyorum. 
+        
+        Aslında oyunu kabaca şu şekilde özetlemek mümkün: %90 Counter-Strike,%10Overwatch. 
+        Beşer kişilik iki takımın karşı karşıya geldiği maçlarda bir taraf savunma, diğer taraf saldırı rolünde. 
+        İki devrede toplam 25 tur üzerinden oynanan ve 13 tur kazananın zafere ulaştığı maçlar 30 saniyelik satın alma süreciyle başlıyor.</p>
+      <p>  
+        Silah, zırh ve yetenek satın aldıktan sonra saldıran taraf “Spike” adı verilen cihazı hedef noktalara yerleştirmeye, 
+        savunan taraf buna engel olmaya çalışıyor. 
+        Maç formatı ve genel oyun mekanikleri açısından ağırlıklı olarak Counter-Strike’ın izinden giden oyuna Overwatch çeşnisi katan ise birbirinden farklı özelliklere sahip karakterler.</p>
+      </div>
     </div>
     <div class="col-md-4">
-      <img src="revelation.jpg" class="img-fluid" alt="valorant">
+      <img src="fotolar/revelation.jpg" class="img-fluid" alt="valorant" style="width:350px;height:297px;"> 
     </div>
   </div>
-</div>
+
 <!-- Fotoğraf Albümü Sayfası -->
-<div class="container mt-5">
-  <h1>Fotoğraf Albümü</h1>
-  <hr>
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#">Anasayfa</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Fotoğraf Albümü</li>
-    </ol>
-  </nav>
-  <div class="row mt-3">
-    <div class="col-md-3">
-      <a href="#" data-toggle="modal" data-target="#imageModal1">
-        <img src="Gameplay_1.jpg" class="img-fluid" alt="photo1">
-      </a>
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="fotolar/Gallery_1.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="col-md-3">
-      <a href="#" data-toggle="modal" data-target="#imageModal2">
-        <img src="Gameplay_2.jpg" class="img-fluid" alt="photo2">
-      </a>
+    <div class="carousel-item">
+      <img src="fotolar/Gallery_2.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="col-md-3">
-      <a href="#" data-toggle="modal" data-target="#imageModal3">
-        <img src="Gameplay_3.jpg" class="img-fluid" alt="photo3">
-      </a>
+    <div class="carousel-item">
+      <img src="fotolar/Gallery_3.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="col-md-3">
-      <a href="#" data-toggle="modal" data-target="#imageModal4">
-        <img src="Gameplay_4.jpg" class="img-fluid" alt="photo4">
-      </a>
+    <div class="carousel-item">
+      <img src="fotolar/wp6012391.webp" class="d-block w-100" alt="...">
     </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-<!-- Fotoğraf Modalları -->
-<div class="modal fade" id="imageModal1" tabindex="-1" role="dialog" aria-labelledby="imageModal1Label" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="Gameplay_1.jpg" class="img-fluid" alt="photo1">
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="imageModal2" tabindex="-1" role="dialog" aria-labelledby="imageModal2Label" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="Gameplay_2.jpg" class="img-fluid" alt="photo2">
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="imageModal3" tabindex="-1" role="dialog" aria-labelledby="imageModal3Label" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="Gameplay_3.jpg" class="img-fluid" alt="photo3">
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="imageModal4" tabindex="-1" role="dialog" aria-labelledby="imageModal4Label" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="Gameplay_4.jpg" class="img-fluid" alt="photo4">
-      </div>
-    </div>
-  </div>
-</div>
+
 <!-- İletişim Formu ve Harita -->
-<div class="container mt-5">
-  <h1>İletişim</h1>
+<div  id="iletisim"  class="container mt-5">
+  <h1 style="color: rgb(15, 25, 35);">İLETİŞİM</h1>
   <hr>
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
@@ -318,29 +474,23 @@
     </div>
     <div class="col-md-6">
       <div id="map"></div>
-      <script>
-        function initMap() {
-          var location = {lat: 41.0176, lng: 28.965};
-          var map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 15,
-            center: location
-          });
-          var marker = new google.maps.Marker({
-            position: location,
-            map: map
-          });
-        }
-      </script>
-      <script async defer src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d755.6922552235297!2d30.328987545721027!3d40.745107749577535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccad92fff22ce9%3A0x77b1b360f245334c!2sUnigarden!5e0!3m2!1str!2str!4v1638620484404!5m2!1str!2str"></script>
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.240342505566!2d30.40255195123068!3d40.8007120400186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x70b7cd4946d288c0!2zNDDCsDQ4JzAyLjYiTiAzMMKwMjQnMTcuMSJF!5e0!3m2!1sen!2sin!4v1673137386051!5m2!1sen!2sin"
+        width="523" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </div>
+</body>
 <!-- Footer -->
 <footer class="bg-dark mt-5 py-3">
   <div class="container">
-    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+    <p style="font-size:20px;" class="m-0 text-center text- text-white">Copyright &copy; Ahmet Mithat Ayar 2023</p>
   </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
 
-</body>
+
 </html>
